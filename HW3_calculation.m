@@ -39,6 +39,7 @@ Jgeo = jacobian(o3,[q1; q2; d3])
 %%Inverse Jacobian
 Jinv = inv(Jgeo)
 
-
+%singularity 
+singuldet(J_v)
 
 
